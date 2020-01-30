@@ -1,3 +1,4 @@
+# typed: true
 class PriceCalculator
   # List of our individual pricing rules
   TAX           = ->(val) { val + val*0.05 }

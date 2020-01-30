@@ -16,6 +16,10 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.9.0)
     rspec-support (3.9.2)
+    sorbet (0.5.5313)
+      sorbet-static (= 0.5.5313)
+    sorbet-runtime (0.5.5313)
+    sorbet-static (0.5.5313-universal-darwin-14)
 
 PLATFORMS
   ruby
@@ -23,6 +27,8 @@ PLATFORMS
 DEPENDENCIES
   byebug
   rspec
+  sorbet
+  sorbet-runtime
 
 BUNDLED WITH
    2.1.4

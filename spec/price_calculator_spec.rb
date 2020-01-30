@@ -1,3 +1,4 @@
+# typed: false
 require './lib/price_calculator'
 
 RSpec.describe PriceCalculator do
