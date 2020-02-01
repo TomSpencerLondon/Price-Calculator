@@ -3,7 +3,7 @@ require './lib/price_calculator'
 
 RSpec.describe PriceCalculator do
   let(:subject) do
-    described_classa
+    described_class
   end
 
   let(:amount) do
